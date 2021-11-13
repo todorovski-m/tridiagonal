@@ -1,5 +1,7 @@
 # Solving Tridiagonal Symmetric Systems of Equations Using Circuit Theory Approach
 
+[Go to full paper](http://www.iaeng.org/IJCS/issues_v48/issue_3/IJCS_48_3_24.pdf)
+
 We propose a novel solution method for symmetric tridiagonal systems. The main idea is to construct a specific electric circuit with the same node-voltage equations as the original system. This circuit has a specific “ladder” structure and it is efficiently solved using a methodology know as the admittance summation method [[1]](#1). The method avoids possible zero divisions exploiting the specific structure of the circuit. This specific property is an equivalent to a pivoting strategies used in other methods.
 
 The test have shown that the performance of the proposed method is comparable to the Thomas algorithm [[2]](#2) and Gaussian elimination adapted for tridiagonal systems [[3]](#3), as well as the Matlab backslash operator.
